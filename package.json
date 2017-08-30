@@ -1,9 +1,8 @@
 {
-  "name": "xterm",
-  "description": "Full xterm terminal, in your browser",
+  "name": "sme-powershell",
+  "description": "PS in Browser",
   "version": "2.9.1",
   "ignore": [
-    "demo",
     "test",
     ".gitignore"
   ],
@@ -14,6 +13,7 @@
   "files": [
     "*.js",
     "*.json",
+    "demo/*.*",
     "dist/*.css",
     "dist/**/*.css",
     "dist/*.js",

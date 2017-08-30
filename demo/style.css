@@ -1,5 +1,5 @@
 body {
-    font-family: helvetica, sans-serif, arial;
+    font-family: monospace;
     font-size: 1em;
     color: #111;
 }
@@ -16,7 +16,12 @@ h1 {
 }
 
 #terminal-container .terminal {
-    background-color: #111;
+    background-color: darkblue;
+    font-family: monospace;
     color: #fafafa;
     padding: 2px;
+}
+.terminal .xterm-viewport {
+    background-color: inherit;
+    font-family: monospace;
 }
